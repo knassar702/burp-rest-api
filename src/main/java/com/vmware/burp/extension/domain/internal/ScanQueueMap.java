@@ -83,7 +83,8 @@ public class ScanQueueMap {
          log.info("Scan Percent Complete: {}", percentComplete);
          return percentComplete;
       }else{
-         return 0;
+          // same value for finish the scanning
+         return 100;
       }
    }
 }
